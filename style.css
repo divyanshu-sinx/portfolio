@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    background-image: url("img/developer.png");
+    background-repeat: no-repeat;
+    align-items: flex-start;
+    padding-top: 2rem;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+h1 {
+    color: whitesmoke;
+}
+
+h1,
+h2 {
+    font-size: 6.5rem;
+    font-weight: 400;
+}
+
+h1 span {
+    font-size: 3rem;
+}
+
+.sec-1 {
+    background-color: #161619;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 7rem;
+    color: whitesmoke;
+}
+
+h2>span {
+    font-size: 13rem;
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    padding-bottom: 5rem;
+    width: 38rem;
+}
+
+.sec-2 {
+    padding: 10rem 5rem;
+    flex-wrap: wrap;
+    align-items: unset;
+    gap: 5rem;
+}
+
+.img {
+    height: 22rem;
+    width: 100%;
+}
+
+.desc {
+    padding: 1rem 2rem;
+    margin-top: 1rem;
+    gap: 2rem;
+    align-items: flex-start;
+}
+
+h3 {
+    font-weight: 400;
+    font-size: 3rem;
+}
+
+.desc-p {
+    font-size: 1.4rem;
+    color: #373737;
+    font-weight: 500;
+}
+
+.sec-3 {
+    align-items: unset;
+}
+
+.contact,
+.about {
+    padding: 5rem 6rem;
+    gap: 2rem;
+    width: 50%;
+    flex-direction: column;
+}
+
+.contact h2,
+.about h2 {
+    text-transform: none;
+}
+
+.contact {
+    background-color: #515603;
+}
+
+.about {
+    background: #722300
+}
+
+.contact p,
+.email,
+.about p {
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    color: #fff;
+}
+
+.email {
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+footer {
+    padding: 5rem;
+    background: #000;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* responsive coding... */
+
+@media (max-width: 1180px) {
+    html {
+        font-size: 55%;
+    }
+}
+
+@media (max-width: 980px) {
+    html {
+        font-size: 48%;
+    }
+
+    .sec-2 {
+        padding: 5rem;
+    }
+
+    .sec-1 {
+        padding: 2rem;
+    }
+
+    h1 {
+        margin-top: 0;
+    }
+
+    h2 {
+        font-size: 5rem;
+    }
+
+    h2>span {
+        font-size: 8rem;
+    }
+
+    .contact,
+    .about {
+        padding: 4rem;
+    }
+
+    .contact p,
+    .email,
+    .about p {
+        font-size: 1.6rem;
+    }
+}
+
+@media(max-width: 702px) {
+    .card {
+        width: 95%;
+    }
+
+    .img {
+        height: 35rem;
+    }
+
+    .contact,
+    .about {
+        padding: 3rem;
+    }
+
+    .desc-p {
+        font-size: 1.9rem;
+    }
+
+    h1 {
+        font-size: 6rem;
+    }
+}
+
+@media (max-width: 553px) {
+    .card {
+        width: 100%;
+    }
+
+    .main {
+        padding-top: 4rem;
+        background-size: 185% 100%;
+        height: 60vh;
+    }
+
+    h1 {
+        font-size: 3.2rem;
+    }
+    h1 span{
+        font-size: 2rem;
+    }
+    .sec-3 {
+        flex-direction: column;
+    }
+
+    .contact,
+    .about {
+        width: 100%;
+    }
+
+    h2 {
+        font-size: 2.8rem;
+    }
+
+    h2>span {
+        font-size: 4rem;
+    }
+
+    .sec-2 {
+        padding: 3.5rem;
+    }
+
+    .img {
+        height: 25rem;
+    }
+
+    h3 {
+        font-size: 2.3rem;
+    }
+}
