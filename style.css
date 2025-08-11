@@ -138,6 +138,11 @@ footer {
     text-transform: uppercase;
 }
 
+.card h3 {
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
 /* responsive coding... */
 
 @media (max-width: 1180px) {
@@ -220,9 +225,11 @@ footer {
     h1 {
         font-size: 3.5rem;
     }
-    h1 span{
+
+    h1 span {
         font-size: 2.2rem;
     }
+
     .sec-3 {
         flex-direction: column;
     }
@@ -250,5 +257,10 @@ footer {
 
     h3 {
         font-size: 2.3rem;
+    }
+
+    .card h3 {
+        font-weight: 500;
+        text-transform: uppercase;
     }
 }
